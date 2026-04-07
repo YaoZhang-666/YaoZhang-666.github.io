@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #ffffff;
+  background: #fff000;
   background-size: cover;
   left: 0;
   right: 0;
@@ -715,7 +715,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: #000;
 }
 
 .services .icon-box:hover .icon i {
@@ -814,8 +814,8 @@ section .container {
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #fff;
-  border-left: 3px solid #fff;
+  border-top: 3px solid #000;
+  border-left: 3px solid #000;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -828,8 +828,8 @@ section .container {
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid #fff;
-  border-right: 3px solid #fff;
+  border-bottom: 3px solid #000;
+  border-right: 3px solid #000;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -841,7 +841,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #ffffff;
+  color: #fff000;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
