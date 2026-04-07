@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #fff000;
+  background: #ffffff;
   background-size: cover;
   left: 0;
   right: 0;
@@ -841,7 +841,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #fff000;
+  color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
