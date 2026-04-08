@@ -726,11 +726,18 @@ section .container {
   background: #35e888;
 }
 
-.services .icon-box:hover h4,
+/* .services .icon-box:hover h4,
 .services .icon-box:hover h4 a,
 .services .icon-box:hover p * ,
 .services .icon-box:hover a {
   color: #ffffff !important;
+} */
+.services .icon-box:hover p {
+  color: #ffffff !important;
+}
+
+.services .icon-box:hover p * {
+  color: inherit;
 }
 
 /*--------------------------------------------------------------
